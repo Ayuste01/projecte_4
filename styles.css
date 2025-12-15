@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  color: white;
+  font-size: 15px;
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 500px;
+}
+
+.main {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+/* Filas */
+.fila {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* Cajas Webs */
+.cajita {
+  border: solid 1px red;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cajita img{
+    padding-top: 10px;
+}
+
