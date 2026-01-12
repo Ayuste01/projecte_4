@@ -35,16 +35,21 @@ body {
 /* Cajas Webs */
 .cajita {
   border: solid 1px #808080;
-  border-radius: 10px;
-  width: 300px;
-  height: 300px;
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .cajita img{
     margin-top: 20px;
+    height: 90%;
+    width: 90%;
     border: solid 2px grey;
     border-radius: 7px;
 }
 
+body .p4{
+  background-image: url(paginas/pagina4/pagina4.jpg);
+}
