@@ -34,7 +34,8 @@ body {
 
 /* Cajas Webs */
 .cajita {
-  border: solid 1px red;
+  border: solid 1px #808080;
+  border-radius: 10px;
   width: 250px;
   height: 250px;
   display: flex;
@@ -42,6 +43,8 @@ body {
   align-items: center;
 }
 .cajita img{
-    padding-top: 10px;
+    margin-top: 10px;
+    border: solid 2px grey;
+    border-radius: 7px;
 }
 
