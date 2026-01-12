@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #A62405;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.izq{
+    width: 50%;
+    height: 100%;
+}
+
+.izq img{
+    width: 618.33px;
+    height: 795.5px;
+    
+}
